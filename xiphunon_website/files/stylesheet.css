@@ -1,0 +1,139 @@
+/* Style for Title*/
+
+.dropdown {
+    color: black;
+    text-align: center;
+}
+
+body {
+    margin: 0px;
+    background-color: whitesmoke;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/* Header Menu */
+
+ul.header {
+    background-color: #111;
+
+    list-style-type: none;
+    margin: 0 0;
+    padding: 0;
+    margin-bottom: 2vh;
+    overflow: hidden;
+    top: 0;
+    box-shadow: 0 6px 0px 0 #333, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+li {
+    float: left;
+}
+
+/* Button Style */
+
+li .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 4px 16px;
+    text-decoration: none;
+}
+
+li .dropdown:hover .dropbtn {
+    background-color: #111;
+}
+
+li .dropdown {
+    display: inline-block;
+}
+
+/* Dropdown Menu Style */
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 142.667px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    background-color: #333;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    padding-top: 1.5vmax;
+    padding-bottom: 1.5vmax;
+}
+
+.dropdown-content a:hover {
+    background-color: #111;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Search Input Style */
+
+
+/* Style for Results Container */
+
+.row {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    display: flex;
+    list-style-type: none;
+}
+
+li.column {
+    padding: 2vw;
+}
+
+.wrapper {
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* Transition */
+    transition: 0.2s;
+}
+
+.wrapper:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 140, 186, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform:scale(1.05,1.05);
+    transition-timing-function: ease;
+}
+
+.textContainer{
+    text-align: center;
+    padding: 2vh 2vw;
+    color: black;
+    text-decoration: none;
+}
+
+/* Footer */
+
+ul.footer {
+    background-color: #111;
+    display: block;
+    list-style-type: none;
+    margin: 0 0;
+    padding: 0;
+    overflow: hidden;
+    top: 0;
+    box-shadow: 0 -6px 0px 0 #333, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.csdFooter a, .gitFooter a, .aboutFooter a {
+    color: white;
+    background-color: #111;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
