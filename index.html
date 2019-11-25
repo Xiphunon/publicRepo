@@ -1,0 +1,43 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Zar</title>
+</head>
+<body onload="focusOnTextArea()" onclick="focusOnTextArea()" oncontextmenu="focusOnTextArea()">
+    <ul oncontextmenu="focusOnTextArea()">
+        <li id="exitButton" onclick="exitButtonPressed()"><img id="exitButtonImg" src="resources/down_white.ico" width="24" height="24" alt="EXIT" title="Exit"></li>
+        <li id="pinButton" onclick="pinButtonPressed()"><img id="pinButtonImg" src="resources/pin_icon_red.ico" width="20" height="20" alt="PIN" title="Pin Window"></li>
+    </ul>
+    <p id="textArea" contenteditable="true"></p>
+    <script type="text/javascript">
+        function focusOnTextArea() {
+            document.getElementById('textArea').focus();
+        }
+    </script>
+    <script type="text/javascript">
+        const ipcRenderer = require('electron').ipcRenderer;
+
+        function exitButtonPressed() {
+            ipcRenderer.send('exitButton', "Minimize");
+        }
+
+        function pinButtonPressed() {
+            ipcRenderer.send('pinButton', "Pin to Top");
+        }
+
+        ipcRenderer.on('pin', (event, arg) => {
+            if (arg) {
+                document.getElementById('pinButtonImg').src = 'resources/pin_icon_red.ico';
+            } else {
+                document.getElementById('pinButtonImg').src = 'resources/pin_icon_white.ico';
+            }
+        });
+
+        function focusOnTextArea() {
+            document.getElementById('textArea').focus();
+        }
+    </script>
+</body>
+</html>
