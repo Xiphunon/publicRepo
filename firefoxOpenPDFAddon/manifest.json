@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  "name": "Opdf",
+  "version": "0.1",
+  "description": "Opens a page's pdf in a new tab.",
+  "icons": {
+    "48": "icons/icon-48.png",
+    "96": "icons/icon-96.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.elearning.auth.gr/*"
+      ],
+      "js": [
+        "opdf.js"
+      ]
+    }
+  ],
+  "browser_action": {
+    "default_icon": {
+      "19": "icons/icon-19.png",
+      "38": "icons/icon-38.png"
+    },
+    "default_title": "Opdf"
+  }
+}
