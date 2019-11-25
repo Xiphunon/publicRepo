@@ -1,0 +1,3 @@
+C:/Users/George/Documents/__CSD__/projects/headsTails/cmake-build-debug/CMakeFiles/headsTails.dir
+C:/Users/George/Documents/__CSD__/projects/headsTails/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/George/Documents/__CSD__/projects/headsTails/cmake-build-debug/CMakeFiles/rebuild_cache.dir

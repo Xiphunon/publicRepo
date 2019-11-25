@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/George/Documents/__CSD__/projects/headsTails/src/Common.h
+Log.h
+C:/Users/George/Documents/__CSD__/projects/headsTails/src/Log.h
+
+C:/Users/George/Documents/__CSD__/projects/headsTails/src/Log.h
+iostream
+-
+
+C:/Users/George/Documents/__CSD__/projects/headsTails/src/main.cpp
+iostream
+-
+random
+-
+chrono
+-
+Common.h
+C:/Users/George/Documents/__CSD__/projects/headsTails/src/Common.h
+Log.h
+C:/Users/George/Documents/__CSD__/projects/headsTails/src/Log.h
+
