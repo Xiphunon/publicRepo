@@ -1,1 +1,1 @@
-# publicRepo
+# Public repository for projects
