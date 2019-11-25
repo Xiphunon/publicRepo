@@ -1,0 +1,58 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+input {
+    width: 36em;
+    min-width: 10%;
+    padding: 0.5em;
+    margin: 1em;
+    border: none;
+    border-bottom: 0.2em solid black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2em;
+}
+
+input:focus#dnaBases {
+    border-bottom: solid #2196F3;
+}
+
+::-webkit-input-placeholder {
+    text-align: center;
+}
+
+:-moz-placeholder {
+    /* Firefox 18- */
+    text-align: center;
+}
+
+::-moz-placeholder {
+    /* Firefox 19+ */
+    text-align: center;
+}
+
+:-ms-input-placeholder {
+    text-align: center;
+}
+
+button#submitButton {
+    background-color: white;
+    border: none;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-bottom: 0.2em solid black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button#submitButton:active {
+    border-bottom: 0.2em solid #2196F3;
+}
