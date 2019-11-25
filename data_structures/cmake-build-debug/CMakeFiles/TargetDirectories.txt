@@ -1,0 +1,3 @@
+C:/Users/George/Documents/!CSD/projects/data_structures/cmake-build-debug/CMakeFiles/data_structures.dir
+C:/Users/George/Documents/!CSD/projects/data_structures/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/George/Documents/!CSD/projects/data_structures/cmake-build-debug/CMakeFiles/rebuild_cache.dir
